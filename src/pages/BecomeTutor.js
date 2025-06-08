@@ -1,6 +1,7 @@
 import { Container, Form, Button, Row, Col } from 'react-bootstrap';
 import './BecomeTutor.css';
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export default function BecomeTutor() {
   const [formData, setFormData] = useState({
@@ -9,6 +10,8 @@ export default function BecomeTutor() {
     availability: '',
     description: ''
   });
+
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     setFormData((prev) => ({
@@ -20,7 +23,8 @@ export default function BecomeTutor() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Tutor submitted:", formData);
-    alert("Thanks! Your tutor profile has been submitted.");
+    // Rediriger vers la page de confirmation
+    navigate('/confirmation-profile');
   };
 
   return (

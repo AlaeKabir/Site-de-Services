@@ -3,7 +3,7 @@
   padding: 60px 30px;
   border-radius: 16px;
   text-align: center;
-  color: #1a1a1a; /* texte noir foncé */
+  color: #1a1a1a; 
   box-shadow: 0 10px 25px rgba(208, 224, 255, 0.6);
   animation: fadeIn 1s ease-in-out;
 }
@@ -11,7 +11,7 @@
 .confirmation-section h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #121212; /* texte noir très foncé */
+  color: #121212; 
   margin-bottom: 20px;
   text-shadow: 1px 1px 3px rgba(200, 210, 230, 0.4); /* ombre légère claire */
 }
@@ -19,7 +19,7 @@
 .confirmation-section p.lead {
   font-size: 1.2rem;
   margin-bottom: 30px;
-  color: #222222; /* texte noir un peu plus clair */
+  color: #222222; 
   text-shadow: 0 0 3px rgba(220, 230, 250, 0.5);
 }
 
@@ -27,10 +27,10 @@
   font-size: 1rem;
   padding: 10px 30px;
   border-radius: 30px;
-  background-color: #c9d6ff; /* bleu doux */
+  background-color: #c9d6ff; 
   border: none;
   transition: background-color 0.3s ease;
-  color: #121212; /* texte bouton en noir */
+  color: #121212; 
   box-shadow: 0 4px 12px rgba(77, 99, 172, 0.3);
 }
 
@@ -40,7 +40,7 @@
   color: #121212;
 }
 
-/* Animation fade-in */
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -52,7 +52,7 @@
   }
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .confirmation-section h1 {
     font-size: 2rem;

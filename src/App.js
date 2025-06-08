@@ -7,6 +7,7 @@ import FindTutor from './pages/FindTutor';
 import BecomeTutor from './pages/BecomeTutor';
 import Contact from './pages/Contact';
 import BookASession from './pages/BookASession';
+import ConfirmationProfile from './pages/ConfirmationProfile';
 
 import './App.css';
 import Confirmation from './pages/Confirmation';
@@ -25,6 +26,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/reserver" element={<BookASession />} />
             <Route path="/confirm" element={<Confirmation />} />
+          <Route path="/confirmation-profile" element={<ConfirmationProfile />} />
           </Routes>
         </div>
         <Footer />
