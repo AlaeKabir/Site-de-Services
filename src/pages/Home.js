@@ -19,7 +19,9 @@ export default function Home() {
                 <Col md={6} className="p-5 text-section">
                 <h2>Your Learning Journey Starts Here.</h2>
                 <p>Get help in different subjects, whenever and wherever you need it!</p>
-                <Button as={Link} to="/tuteurs" variant="primary" className="text-white">Get a Tutor</Button>
+               <div className="text-center">
+                 <Button as={Link} to="/tuteurs" variant="primary" className="text-white">Get a Tutor</Button>
+               </div>
                 </Col>
                 <Col md={6} className="bg-img find-tutor-img d-none d-md-block" />
             </Row>
@@ -33,7 +35,9 @@ export default function Home() {
                 <Col md={6} className="p-5 text-section order-md-2">
                 <h2>Become a Tutor and Share your Learning.</h2>
                 <p>Create a profile or log in and start helping students today!</p>
-                <Button as={Link} to="/devenir-tuteur" variant="warning" className="text-white">Become a Tutor</Button>
+               <div className="text-center">
+                 <Button as={Link} to="/devenir-tuteur" variant="warning" className="text-white ">Become a Tutor</Button>
+               </div>
                 </Col>
                 <Col md={6} className="bg-img become-tutor-img d-none d-md-block order-md-1" />
             </Row>

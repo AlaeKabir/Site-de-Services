@@ -1,4 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import './About.css';
 
 export default function About() {
@@ -27,6 +27,43 @@ export default function About() {
               <strong>For students</strong> who want to improve in a specific subject (math, physics, programming, etc.)  
               <br />
               <strong>For tutors</strong> who are passionate about teaching and ready to support others in their academic journey
+            </p>
+
+              <h4 className="mt-4">Discover Our Services</h4>
+            <p>
+              Discover how Tutor+ can help you achieve your academic goals.
+               <Row className="g-4">
+          <Col md={4}>
+            <Card className="h-100 service-card">
+              <Card.Body>
+                <Card.Title>Academic Support</Card.Title>
+                <Card.Text>
+                  Personalized lessons for students from elementary to university level in all major subjects.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4}>
+            <Card className="h-100 service-card">
+              <Card.Body>
+                <Card.Title>Exam Preparation</Card.Title>
+                <Card.Text>
+                  Get ready for exams, entry tests, or finals with our experienced tutors using targeted strategies.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4}>
+            <Card className="h-100 service-card">
+              <Card.Body>
+                <Card.Title>Online & In-Person Sessions</Card.Title>
+                <Card.Text>
+                  Book online or face-to-face tutoring sessions based on your availability and preference.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
             </p>
 
             <h4 className="mt-4">Why Tutor+?</h4>
