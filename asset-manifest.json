@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/AlaeKabir/Site-de-Services/static/css/main.efc20d0a.css",
-    "main.js": "/AlaeKabir/Site-de-Services/static/js/main.38658126.js",
-    "static/js/453.03aaeba4.chunk.js": "/AlaeKabir/Site-de-Services/static/js/453.03aaeba4.chunk.js",
-    "static/media/student.png": "/AlaeKabir/Site-de-Services/static/media/student.710bbfcb59a6e71212e7.png",
-    "static/media/tutor.png": "/AlaeKabir/Site-de-Services/static/media/tutor.96f5eb98faed526359ba.png",
-    "static/media/user.png": "/AlaeKabir/Site-de-Services/static/media/user.80615258adef026cc4bd.png",
-    "index.html": "/AlaeKabir/Site-de-Services/index.html",
-    "main.efc20d0a.css.map": "/AlaeKabir/Site-de-Services/static/css/main.efc20d0a.css.map",
-    "main.38658126.js.map": "/AlaeKabir/Site-de-Services/static/js/main.38658126.js.map",
-    "453.03aaeba4.chunk.js.map": "/AlaeKabir/Site-de-Services/static/js/453.03aaeba4.chunk.js.map"
+    "main.css": "/Site-de-Services/static/css/main.6cdf6bc5.css",
+    "main.js": "/Site-de-Services/static/js/main.ff88e616.js",
+    "static/js/453.03aaeba4.chunk.js": "/Site-de-Services/static/js/453.03aaeba4.chunk.js",
+    "static/media/student.png": "/Site-de-Services/static/media/student.710bbfcb59a6e71212e7.png",
+    "static/media/tutor.png": "/Site-de-Services/static/media/tutor.96f5eb98faed526359ba.png",
+    "static/media/user.png": "/Site-de-Services/static/media/user.80615258adef026cc4bd.png",
+    "index.html": "/Site-de-Services/index.html",
+    "main.6cdf6bc5.css.map": "/Site-de-Services/static/css/main.6cdf6bc5.css.map",
+    "main.ff88e616.js.map": "/Site-de-Services/static/js/main.ff88e616.js.map",
+    "453.03aaeba4.chunk.js.map": "/Site-de-Services/static/js/453.03aaeba4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efc20d0a.css",
-    "static/js/main.38658126.js"
+    "static/css/main.6cdf6bc5.css",
+    "static/js/main.ff88e616.js"
   ]
 }
