@@ -1,6 +1,7 @@
 import { Container, Row, Col, Card, Button, Form } from 'react-bootstrap';
 import { useState } from 'react';
 import './FindTutor.css';
+import { Link } from 'react-router-dom';
 
 const tutors = [
   {
@@ -85,7 +86,7 @@ export default function FindTutor() {
                   <Card.Title>{tutor.name}</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">{tutor.subject} — {tutor.price}</Card.Subtitle>
                   <Card.Text>{tutor.description}</Card.Text>
-                  <Button variant="primary" className="w-100">Réserver une session</Button>
+                  <Button as={Link} to="/reserver" variant="primary" className="w-100">Click to book a session</Button>
                 </Card.Body>
               </Card>
             </Col>

@@ -6,7 +6,10 @@ import About from './pages/About';
 import FindTutor from './pages/FindTutor';
 import BecomeTutor from './pages/BecomeTutor';
 import Contact from './pages/Contact';
+import BookASession from './pages/BookASession';
+
 import './App.css';
+import Confirmation from './pages/Confirmation';
 
 function App() {
   return (
@@ -20,6 +23,8 @@ function App() {
             <Route path="/tuteurs" element={<FindTutor />} />
             <Route path="/devenir-tuteur" element={<BecomeTutor />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/reserver" element={<BookASession />} />
+            <Route path="/confirm" element={<Confirmation />} />
           </Routes>
         </div>
         <Footer />
