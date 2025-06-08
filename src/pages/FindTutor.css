@@ -1,0 +1,20 @@
+.find-tutor-page {
+  background-color: #f6fbff;
+  color: #022a53;
+}
+
+.tutor-card {
+  border: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.tutor-card:hover {
+  transform: translateY(-4px);
+}
+
+.tutor-img {
+  height: 150;
+  object-fit: cover;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+}

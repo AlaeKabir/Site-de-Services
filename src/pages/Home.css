@@ -1,0 +1,40 @@
+.home-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 0;
+}
+
+.welcome-section {
+  background-color: #dff0fe; 
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+}
+
+.text-section {
+  color: #022a53;
+  padding: 3rem 2rem;
+}
+
+.find-tutor-section {
+  background-color: #f6fbff;
+  margin-top: 0 !important;
+}
+
+.become-tutor-section {
+  background-color: #dff0fe !important; 
+  margin-top: 0 !important;
+}
+
+.bg-img {
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 375px;
+}
+
+.find-tutor-img {
+  background-image: url('../assets/student.png'); 
+}
+
+.become-tutor-img {
+  background-image: url('../assets/tutor.png');
+}
