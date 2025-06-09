@@ -1,0 +1,26 @@
+.become-tutor-section {
+  background-color: #f6fbff;
+  color: #022a53;
+}
+
+.become-tutor-section h1 {
+  color: #022a53;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.become-tutor-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.become-tutor-section .form-control {
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.become-tutor-section button {
+  padding: 0.6rem 1.4rem;
+  font-weight: 500;
+  border-radius: 6px;
+}
