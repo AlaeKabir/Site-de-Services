@@ -2,7 +2,7 @@
   "name": "tutor-plus",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/AlaeKabir/Site-de-Services/tree/gh-pages",
+  "homepage": "https://github.com/AlaeKabir/Site-de-Services",
 
  "dependencies": {
   "@testing-library/dom": "^10.4.0",
